@@ -1,0 +1,72 @@
+    .imagen-seccion {
+        position: relative;
+        text-align: center;
+        /* Centra el contenido horizontalmente */
+        background-color: var(--color-ppal);
+        /* Color de fondo de la sección */
+        padding: 0px;
+        /* Espaciado interior para separar el contenido */
+    }
+
+    /* Estilo para la imagen */
+    .imagen-seccion img {
+        max-width: 100%;
+        /* La imagen se ajustará al ancho de la sección */
+        height: auto;
+        /* La altura se ajusta automáticamente para mantener la proporción */
+        display: block;
+        /* Elimina cualquier espacio adicional debajo de la imagen */
+        margin: 0 auto;
+        /* Centra la imagen horizontalmente en la sección */
+    }
+
+    .historia {
+        background-color: var(--color-ppal);
+        padding: 20px;
+        margin: auto;
+        max-width: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .historia h2 {
+        color: var(--color-ter);
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+    
+    .historia h3 {
+        color: var(--color-ter);
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+
+    .historia p {
+        color: var(--color-sec);
+        line-height: 1.4;
+    }
+
+    .preparacion {
+        background-color: var(--color-sec);
+        padding: 20px;
+        margin: auto;
+        max-width: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .preparacion h2 {
+        color: var(--color-ter);
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+
+    .preparacion h3 {
+        color: var(--color-ter);
+        font-size: 1em;
+        margin: 20px 0;
+    }
+
+    .preparacion p {
+        color: var(--color-ppal);
+        line-height: 1.4;
+    }
